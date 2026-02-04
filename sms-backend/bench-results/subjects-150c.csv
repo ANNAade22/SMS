@@ -1,0 +1,13 @@
+metric,value
+title,bench-report
+requests.total,4505
+requests.average,300.34
+requests.p95,undefined
+requests.p99,333
+latency.average,492.24
+latency.p50,471
+latency.p95,undefined
+latency.p99,709
+throughput.total,21402750
+errors,0
+timeouts,0
