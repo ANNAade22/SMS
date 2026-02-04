@@ -430,6 +430,7 @@ async function seedAllModels() {
             'Well done',
           ]),
           date: randDate(2024, 2024),
+          academicYear: '2024-2025',
         });
       }
     }

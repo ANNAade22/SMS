@@ -47,7 +47,7 @@ const app = express();
 // Enable CORS for all routes
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'http://localhost:5174'], // Your frontend URLs
+    origin: ['http://localhost:5173', 'http://localhost:5174', 'https://sms-tawny-eight.vercel.app'], // Your frontend URLs
     credentials: true, // Allow cookies if you're using them
   }),
 );
