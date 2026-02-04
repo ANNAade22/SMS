@@ -13,7 +13,7 @@ dotenv.config({ path: './config.env' });
 const app = require('./app');
 
 // Use the local database connection
-const DB = process.env.DATABASE_LOCAL;
+const DB = process.env.DATABASE || process.env.DATABASE_LOCAL;
 
 mongoose.connect(DB).then(async () => {
   console.log('DB connection successful!');
